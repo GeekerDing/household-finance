@@ -1,18 +1,28 @@
 {
   "application": "household-finance-static-shell",
-  "version": "0.1.0",
-  "generatedAt": "2026-10-25T20:16:59.967Z",
+  "version": "0.2.0",
+  "generatedAt": "2026-10-25T21:47:41.284Z",
   "personalDataIncluded": false,
   "files": [
+    {
+      "path": "assets/CenterApp-BScDuu4j.css",
+      "bytes": 6825,
+      "sha256": "51b8bd566317caa17fcac34cf0a8c90a9bcb0b2871da664b968cc265d8e9690c"
+    },
+    {
+      "path": "assets/CenterApp-DNXP6rpn.js",
+      "bytes": 197839,
+      "sha256": "013aa3a957f6f502c6bfaeb5610da31ecf1fccca38166dcce63e8552f90113a5"
+    },
+    {
+      "path": "assets/index-8txd5iuY.js",
+      "bytes": 392024,
+      "sha256": "4e2ce5ffb749ae2dfefb76c9d8fe7095677fb9cb828c70d5247f14aedb8ceec8"
+    },
     {
       "path": "assets/index-BKFQgnjh.css",
       "bytes": 27885,
       "sha256": "d966b416a857f88fc6037e0ce7052a8d5f7be14d62ad4dddae64dfd564ed43ef"
-    },
-    {
-      "path": "assets/index-By_Hk0Pn.js",
-      "bytes": 391202,
-      "sha256": "def4d236635ae06f9cbb1430f9599cf2c294547d6029f2e11ec87b82b7efc132"
     },
     {
       "path": "assets/pdf-DZw16B5N.js",
@@ -25,9 +35,34 @@
       "sha256": "9536359f1b8367850d485731ca1d5e45c159a7b7a0912325e539937aa21ceb18"
     },
     {
+      "path": "icons/icon-192.png",
+      "bytes": 5014,
+      "sha256": "7702e8cb017e1d258122bbecfafb3de2a3843e6c35301de9d3e41d977e30543f"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "bytes": 3382,
+      "sha256": "97c9bdf576b23d416f948a326668825d4642bd1ce9d78aa0b0b06bb3e40739c6"
+    },
+    {
+      "path": "icons/icon.svg",
+      "bytes": 319,
+      "sha256": "1ace89eba8d41b3a73eb98a313e5460a9f5a9f20140c895a98ed67669a0c8650"
+    },
+    {
       "path": "index.html",
-      "bytes": 763,
-      "sha256": "e3df00d87debedfb741d7f3c0b45a525e05dd85c4b35f139ebde250a85093143"
+      "bytes": 935,
+      "sha256": "314ae8d30812add8f6e5610afd65c85eaed20f1df2f5b9d29198f7614d938363"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 385,
+      "sha256": "0fb81954e3df8574d6ba482c67841e38d7486fbcab5d3d184b4b090a162633e0"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 2233,
+      "sha256": "21d7dca04fc09c08dd65d4f997ea8a6b871e8167e172d335f3408bdbeb02090e"
     }
   ]
 }
