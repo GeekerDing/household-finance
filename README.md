@@ -6,4 +6,4 @@ This repository contains only the compiled, empty application and a labeled synt
 
 Financial data is encrypted in each browser. This website does not provide cross-device data synchronisation. To move your records, export and restore an encrypted backup. Keep the password and backup safe.
 
-Amazon Visa PDF parsing requires verification against the actual statement layout.
+Amazon Visa supports the Openbank amount/points table. Review statement totals and unsupported layouts before importing.
