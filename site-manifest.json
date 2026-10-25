@@ -1,7 +1,7 @@
 {
   "application": "household-finance-static-shell",
   "version": "0.1.0",
-  "generatedAt": "2026-10-25T10:13:17.604Z",
+  "generatedAt": "2026-10-25T20:00:02.027Z",
   "personalDataIncluded": false,
   "files": [
     {
@@ -10,9 +10,9 @@
       "sha256": "d966b416a857f88fc6037e0ce7052a8d5f7be14d62ad4dddae64dfd564ed43ef"
     },
     {
-      "path": "assets/index-C8B-6oYn.js",
-      "bytes": 376807,
-      "sha256": "d2aec4c9029fa5c41867782de372c817428b7de5fbd25bac8c35749a17ecf578"
+      "path": "assets/index-DtQcxgDR.js",
+      "bytes": 387551,
+      "sha256": "00583439fe40c258e375f8794a36ffa1fab10e3db588969170735a1c173603f8"
     },
     {
       "path": "assets/pdf-DZw16B5N.js",
@@ -27,7 +27,7 @@
     {
       "path": "index.html",
       "bytes": 763,
-      "sha256": "a69c0d1e8e3096e159c3f65dd1a5d07332a13acd9969be31f59c22f8efbec0e2"
+      "sha256": "875839a45e42599bc0a66dcaae2e87a2910c50ad578e344743a28a93bc5121f4"
     }
   ]
 }
