@@ -4,8 +4,8 @@
   "files": [
     {
       "path": "index.html",
-      "bytes": 1952,
-      "sha256": "678eafa8698111d1b5b2eff44e23887b71570ceecbe13673eedc08c9a6b18055"
+      "bytes": 2075,
+      "sha256": "cd1b3a49671b29d6c3ac8b186fbcbbacc385799fdaa06543fe8005aaefd13a1f"
     },
     {
       "path": "manifest.webmanifest",
@@ -170,7 +170,7 @@
     {
       "path": "sw.js",
       "bytes": 1972,
-      "sha256": "a67de22f8e041d18b72aaccc38d35bd92188a1436ab1a7ce18796b704ad0dc17"
+      "sha256": "7772151576fcfa45f742a80c1c46aca86868ce939a37232e8c4f419e41586ce6"
     }
   ]
 }
