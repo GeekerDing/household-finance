@@ -1,0 +1,176 @@
+{
+  "application": "household-cloud-static-shell",
+  "personalDataIncluded": false,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 1952,
+      "sha256": "fcb70ba09f2113885e939e9ac6caf1f939085aa70117db0f7cf331db4dab5758"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "bytes": 577,
+      "sha256": "9d941ec2adc502a06c1dbb8796700d2403e1909891cd8795f652c568a3f70f25"
+    },
+    {
+      "path": "assets/CartesianChart-CxxStd9s.js",
+      "bytes": 362677,
+      "sha256": "cd8b8dfa25b87fdded16b2e9ccda1af5b96a42682ba5f9dfb45a5e170e11d642"
+    },
+    {
+      "path": "assets/Coupons-C33SnApC.js",
+      "bytes": 9577,
+      "sha256": "5d1dd73e1b095a9fcfc6d27070dc2ecb97bce62b4d56b51b054280940697e26b"
+    },
+    {
+      "path": "assets/Debts-BKhCPAb2.js",
+      "bytes": 2493,
+      "sha256": "4ac53bd279cadaec1d692b71c1d845d4e87667b04d35c5c09b553fe706b9a680"
+    },
+    {
+      "path": "assets/Energy-D9iRrOcl.js",
+      "bytes": 14045,
+      "sha256": "089c82d677caf211b4db48b90ff9f7e5f2dd2698ced17adfc920fc92928ebae1"
+    },
+    {
+      "path": "assets/Life-BIJiVsjt.js",
+      "bytes": 1615,
+      "sha256": "182d4b4b7c08cb72bf3c47be6ff6ca4e05d5284c69206f20989f3716064869c0"
+    },
+    {
+      "path": "assets/Planning-BwwlYUmC.js",
+      "bytes": 25783,
+      "sha256": "64a2fd1fc80ac5d1ae9c3ef1956f960e4c9a1484053221e2491a3ca03b36f0d0"
+    },
+    {
+      "path": "assets/Retirement-BRmNvKve.js",
+      "bytes": 14883,
+      "sha256": "b4726c9038bbbb944d7d8610fd91e7d338e9db914fab855ad568590c18518615"
+    },
+    {
+      "path": "assets/Spending-B8iBnMvV.css",
+      "bytes": 9379,
+      "sha256": "20cc96dbb9bf623ef3908795190cf4196c853b83b33a478a2a012c986d02c18c"
+    },
+    {
+      "path": "assets/Spending-BJ-zyEVh.js",
+      "bytes": 38639,
+      "sha256": "e014c7d537310b9771b2f1c785e43f95c93b1fb5ffe90a15254f35e37630c8dc"
+    },
+    {
+      "path": "assets/TaxFace-B7SevGCb.js",
+      "bytes": 23208,
+      "sha256": "dcaf8c5cb96c614c6822a2f73384f93d25e4e928e4e029f28d3824bcea1f142a"
+    },
+    {
+      "path": "assets/art-ACfd6HSw.js",
+      "bytes": 19115,
+      "sha256": "df6796e1a4ab5c80f6a6b7dc06b5b0e0c0a06d8a260e94e92772b0bda2a55db0"
+    },
+    {
+      "path": "assets/charts-DHZ0UUpM.js",
+      "bytes": 37132,
+      "sha256": "e0cc71a8b1bab30683763304152dfa998951e0d95d5d14e5d10ef417680e1094"
+    },
+    {
+      "path": "assets/cloud-ATMU9ZuW.css",
+      "bytes": 107696,
+      "sha256": "f1dae1dc0f6b3a3707a1b67e4c2641cbfdf5b1c30e07483c78d26f37fbad92e4"
+    },
+    {
+      "path": "assets/cloud-BqEiOXSZ.js",
+      "bytes": 791518,
+      "sha256": "769d4130a4f2bd6c850e4091e2a139e66bba2c7917f509bdbf06c81fb90f972e"
+    },
+    {
+      "path": "assets/common-DjDi6FrH.js",
+      "bytes": 125852,
+      "sha256": "253fc8aaa084d7b9fc74507965392fa5fa6edc5a85c501b98db3b61f170ade19"
+    },
+    {
+      "path": "assets/confirm-Bq8pm4wW.js",
+      "bytes": 1510,
+      "sha256": "5c0c187dc9be91ee622380711c6f71d93642b926c4c1f91add2dca828a592fa3"
+    },
+    {
+      "path": "assets/context-CvsZ6axS.js",
+      "bytes": 35471,
+      "sha256": "d79454fb0e139174e1528fa1d4d4763b28cbeb70f0c9a5d5d6086c147986f2ce"
+    },
+    {
+      "path": "assets/energy-BimfAHq3.js",
+      "bytes": 3489,
+      "sha256": "be3f1ca03ef1320d2ce4aea48a33bf41cf76e264d7fc6e21c709e470fc230e53"
+    },
+    {
+      "path": "assets/jsQR-DMfxOdIb.js",
+      "bytes": 129986,
+      "sha256": "d669286fbf7c726fdcad5de1b4ac34fd6b6be6411f8295925ad9f53895d77869"
+    },
+    {
+      "path": "assets/model-CoaSMNjm.js",
+      "bytes": 138289,
+      "sha256": "0ee3baf555760e4bd758e19db4b1b2a811ce1cbf066dfd61d98557d9ed2e3bdb"
+    },
+    {
+      "path": "assets/pdf-DZw16B5N.js",
+      "bytes": 428975,
+      "sha256": "46496f21ca267d746f71003db3547191251c65c98187d54ceb8d688eb367267f"
+    },
+    {
+      "path": "assets/pdf.worker.min-CjEcRF4W.mjs",
+      "bytes": 1264342,
+      "sha256": "9536359f1b8367850d485731ca1d5e45c159a7b7a0912325e539937aa21ceb18"
+    },
+    {
+      "path": "assets/planning-B65aBcE7.js",
+      "bytes": 65634,
+      "sha256": "62ae67d8fdadee4a8bad1903e460fa75241f1e4f95423981b47eb971e79dd2fa"
+    },
+    {
+      "path": "assets/rolldown-runtime-XKyaHtl9.js",
+      "bytes": 726,
+      "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
+    },
+    {
+      "path": "assets/spending-Bn7ZSpNS.js",
+      "bytes": 10216,
+      "sha256": "a6ad633a094cb0c23cb0512cf53b4d3c1db80829c10f831e9a017b15f85f5dfa"
+    },
+    {
+      "path": "assets/wallet-Wdce0t9y.js",
+      "bytes": 3734,
+      "sha256": "bd8653f6029838b87ca3916e8ff7f38388434c758f33b9e87b5a5bdff4eeb0b3"
+    },
+    {
+      "path": "icons/apple-touch-icon.png",
+      "bytes": 48655,
+      "sha256": "fe6159638e0c84ec5b9c85c383f38d4f15a2559fda678d0de73e88a3838e23f0"
+    },
+    {
+      "path": "icons/favicon-32.png",
+      "bytes": 3104,
+      "sha256": "b7e4f8e52fc663be6686976e71352b7b69ee75bdfacbee23f320106bd6d70c69"
+    },
+    {
+      "path": "icons/icon-192.png",
+      "bytes": 54644,
+      "sha256": "eae29328f692991fb72491109d5bc47e7cb3455f206ec01e8647739e963efb59"
+    },
+    {
+      "path": "icons/icon-512.png",
+      "bytes": 328428,
+      "sha256": "8d2c4187d6e59f3436d8703649280bd21a97ad7445c1a03b928a126e83e2ec44"
+    },
+    {
+      "path": "icons/icon-maskable-512.png",
+      "bytes": 196877,
+      "sha256": "c8aa3afaeb5281c9fd006ab0a5614730f0ec8abb2a7d82fde281c4e646f539d6"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 1972,
+      "sha256": "d51d15a5ffcd1cbe55a362328619f8b6aaf0b1dae7d9f27d86fc2e5241f96f60"
+    }
+  ]
+}
