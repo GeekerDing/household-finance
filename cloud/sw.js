@@ -1,10 +1,24 @@
-const CACHE = 'household-cloud-66752d102f9d';
-const FILES = ["./index.html","./manifest.webmanifest","./assets/CartesianChart-CxxStd9s.js","./assets/Coupons-DhcqKag6.js","./assets/Debts-CJracHPR.js","./assets/Energy-C1rIIXrv.js","./assets/Life-v1BJeJGx.js","./assets/Planning-I6U6XjiZ.js","./assets/Retirement-BqwMf62i.js","./assets/Spending-B-12tpSW.js","./assets/Spending-B8iBnMvV.css","./assets/TaxFace-CAfP7YlM.js","./assets/art-ACfd6HSw.js","./assets/charts-DHZ0UUpM.js","./assets/cloud-ATMU9ZuW.css","./assets/cloud-D7JyxUXC.js","./assets/common-DjDi6FrH.js","./assets/confirm-Bq8pm4wW.js","./assets/context-CvsZ6axS.js","./assets/energy-BimfAHq3.js","./assets/jsQR-DMfxOdIb.js","./assets/model-CoaSMNjm.js","./assets/pdf-DZw16B5N.js","./assets/pdf.worker.min-CjEcRF4W.mjs","./assets/planning-B65aBcE7.js","./assets/rolldown-runtime-XKyaHtl9.js","./assets/spending-Bn7ZSpNS.js","./assets/wallet-Wdce0t9y.js","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png"];
+const CACHE = 'household-cloud-8a54e9d34796';
+const FILES = ["./index.html","./manifest.webmanifest","./assets/CartesianChart-DhdkDP5p.js","./assets/Coupons-DHoHQdb3.js","./assets/Debts-Bw3NSYqm.js","./assets/Energy-CiSDpfvP.js","./assets/Life-BAQlKuPm.js","./assets/Planning-CGRmBajZ.js","./assets/Retirement-C3bzo0bp.js","./assets/Spending-CBuibbw-.css","./assets/Spending-Dpt9fkw5.js","./assets/TaxFace-C8GHnboj.js","./assets/art-ACfd6HSw.js","./assets/charts-BYmF7EY9.js","./assets/cloud-9w8Orlmk.css","./assets/cloud-B2cVOzOC.js","./assets/common-R3XXBJYo.js","./assets/confirm-7-C6qrP0.js","./assets/context-CvsZ6axS.js","./assets/energy-BimfAHq3.js","./assets/jsQR-DMfxOdIb.js","./assets/model-6F-ATQyg.js","./assets/pdf-DZw16B5N.js","./assets/pdf.worker.min-CjEcRF4W.mjs","./assets/planning-B_M7GBOj.js","./assets/rolldown-runtime-XKyaHtl9.js","./assets/spending-Bn7ZSpNS.js","./assets/wallet-DTQqxOm0.js","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png"];
 const URLS = new Set(FILES.map((p) => new URL(p, self.registration.scope).href));
 self.addEventListener('install', (event) =>
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES))),
 );
-self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()));
+// 新版本激活后删除旧版本的程序缓存，避免每次发布都多占一份存储（与加密金库共用配额）
+self.addEventListener('activate', (event) =>
+  event.waitUntil(
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(
+          keys
+            .filter((k) => k.startsWith('household-cloud-') && k !== CACHE)
+            .map((k) => caches.delete(k)),
+        ),
+      )
+      .then(() => self.clients.claim()),
+  ),
+);
 self.addEventListener('fetch', (event) => {
   const u = new URL(event.request.url);
   if (
