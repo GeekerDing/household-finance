@@ -1,11 +1,13 @@
 {
   "application": "household-cloud-static-shell",
   "personalDataIncluded": false,
+  "target": "legacy",
+  "origin": "https://geekerding.github.io",
   "files": [
     {
       "path": "index.html",
-      "bytes": 2108,
-      "sha256": "13dc632aa763f93cb0d0abe7c293eebd24109cd0d30eb4a91090acd89f5e0be5"
+      "bytes": 2485,
+      "sha256": "460ca6b76358d044b85adba25320dded11cd5502c9b5720b27e6f591f60d0d03"
     },
     {
       "path": "manifest.webmanifest",
@@ -13,39 +15,64 @@
       "sha256": "f540671ec44951b83d0098f206e6483fa52ed7a60145b134581763afde9ffe24"
     },
     {
-      "path": "assets/CartesianChart-C318VRyI.js",
-      "bytes": 362677,
-      "sha256": "8804de2145888f93a97e23aac2ac3a21c7f155c753171cbc81af219c08024d9a"
+      "path": "about.html",
+      "bytes": 1199,
+      "sha256": "074966dd82973773a0fdf2753af1dc972f64592a25d841d786ec1b0446014a53"
     },
     {
-      "path": "assets/Coupons-CKp2ByC2.js",
-      "bytes": 9851,
-      "sha256": "51f25526ba07e9e513d768aa822d0c30bae7033c596df2d8be389a4ca144468e"
+      "path": "privacy.html",
+      "bytes": 2469,
+      "sha256": "d1a420b32e9e8772aec648a2bc76469d5846371010629b6c8704e6f16e08a755"
     },
     {
-      "path": "assets/Debts-DOfJgsgi.js",
-      "bytes": 2653,
-      "sha256": "ca6dea36c87c05b13f44b4bffa022d0670e50dc47c94ff2f9274780d0738c3d8"
+      "path": "assets/Assistant-5Nk11b-1.js",
+      "bytes": 30174,
+      "sha256": "bfaaa4944bf849a1ea2a0ae58a1df1b406e3b45bae48d730b9e95f987a9075e2"
     },
     {
-      "path": "assets/Energy-DTAzG73V.js",
-      "bytes": 14206,
-      "sha256": "b1a51a70a41fae62a30f51b0534c10518e0a21f5516a69cab0fe8069bf9d1a12"
+      "path": "assets/CartesianChart-BaXBFOkp.js",
+      "bytes": 362685,
+      "sha256": "dcd2e82a8654c9ce8413da477824a8cc0bd27d7994c6c5630765e8d36034e394"
     },
     {
-      "path": "assets/Life-Boka4gb1.js",
-      "bytes": 1625,
-      "sha256": "1b3ec342b5067050e448eb69877e4d38f232dbac64e3da240b91d0eeebef8e6d"
+      "path": "assets/Coupons-Dksvf1eo.js",
+      "bytes": 9889,
+      "sha256": "90fe71c9bcb9215da9beecf3b57874d15f93a5a1e9456e4701c1bee6d4b79e8f"
     },
     {
-      "path": "assets/Planning-1Zs0fU4t.js",
-      "bytes": 42261,
-      "sha256": "81eba0ba20eec90f958d56d8c06c6f8428d3faacc249d7796a11f830fb4db120"
+      "path": "assets/Debts-CKjqTgtN.js",
+      "bytes": 2663,
+      "sha256": "07ee532b7ec4525f59ebec9b45dbd1e954b376cb63182dbc740ec2a150db437e"
     },
     {
-      "path": "assets/Retirement-C6y5mHFK.js",
-      "bytes": 15153,
-      "sha256": "050ff4469161951bc2e671f2f1f5b75411eaae5557138404427f4ed7633d9c57"
+      "path": "assets/Energy-DV9DNxBk.js",
+      "bytes": 14316,
+      "sha256": "b933577eee9b0a4ca8377d70b0917bfcae74d77087b4a0f4bbdc4eb71c4278f0"
+    },
+    {
+      "path": "assets/InfoTip-Bt2Zez1W.css",
+      "bytes": 1461,
+      "sha256": "da201bdbc59d6629483434737479eb53ba8a192c47ef7b84efee92de947c3fc3"
+    },
+    {
+      "path": "assets/InfoTip-Bvh_czXV.js",
+      "bytes": 4164,
+      "sha256": "5c6436e17395b00190dde20ae1259da69b903048bde4862785f5d5f23a8e051b"
+    },
+    {
+      "path": "assets/Life-C99l-Rtm.js",
+      "bytes": 1764,
+      "sha256": "4e9290959a45ca08579da652f355bbb9cc81bba8abf3f695d6cf5f0ca4fc4fb8"
+    },
+    {
+      "path": "assets/Planning-CCC3RixT.js",
+      "bytes": 42374,
+      "sha256": "55007df85769029b961e26bc9f94f22dae2ac66b013682d9403f28b319a618a7"
+    },
+    {
+      "path": "assets/Retirement-DXI1t5dA.js",
+      "bytes": 8871,
+      "sha256": "f445ff4dfddae998a9e2e3923bf48de14f8422041f05b3c75e26561e11f76889"
     },
     {
       "path": "assets/Spending-BKPa32i7.css",
@@ -53,69 +80,74 @@
       "sha256": "8b6b6599195fce72b0e9e31be8722d6c8a54aeeb2c28a9b544ceaa99a76c6612"
     },
     {
-      "path": "assets/Spending-D9-Hsubw.js",
-      "bytes": 40713,
-      "sha256": "2024a1e693a837cf685f262d68eb23c8f310e8ed31d00157f7ba54f17ee8b3a4"
+      "path": "assets/Spending-xctc80e2.js",
+      "bytes": 40787,
+      "sha256": "fd5a1c45d2eeb70b10171c538751eac0e4785edf0d56990f5da01668750f9673"
     },
     {
-      "path": "assets/TaxFace-BjswM6xk.js",
-      "bytes": 44562,
-      "sha256": "12579e72c309d37876aaaa9aaaee82e1b1e784aa873ecb1622ff657d05091239"
+      "path": "assets/TaxFace-BTn1Q9iA.js",
+      "bytes": 44642,
+      "sha256": "518e43eb3c0f5b989037894391076649f792e9ec94a2acfbe75cbe57221c4c6d"
     },
     {
-      "path": "assets/TaxImportPage-DI_kAK9o.js",
-      "bytes": 278,
-      "sha256": "466949daf5966aed2ef776c96d7c6c7ce67d9028286ab76f2d2314c3f4111d0c"
+      "path": "assets/TaxImportPage-CyopKyUg.js",
+      "bytes": 286,
+      "sha256": "bfb313993a1862fba77dcafb9209869c24e26f427ee92575e4615584ba161244"
     },
     {
-      "path": "assets/art-ACfd6HSw.js",
-      "bytes": 19115,
-      "sha256": "df6796e1a4ab5c80f6a6b7dc06b5b0e0c0a06d8a260e94e92772b0bda2a55db0"
+      "path": "assets/art-DquhzhrU.js",
+      "bytes": 10981,
+      "sha256": "24a7e183b1912b1047d269c67449eca86cb278ba6a24b350a029d9c96606dbf0"
     },
     {
-      "path": "assets/cache-Bt2Zez1W.css",
-      "bytes": 1461,
-      "sha256": "da201bdbc59d6629483434737479eb53ba8a192c47ef7b84efee92de947c3fc3"
+      "path": "assets/cache-DZLa3BDb.js",
+      "bytes": 35483,
+      "sha256": "4f37276bb9abcaef104bdc5e22280de4e51896d4f2892cb38b1c2ce7e912d254"
     },
     {
-      "path": "assets/cache-DpUXgGKX.js",
-      "bytes": 39545,
-      "sha256": "19bd210d7bc1cb3a57e06027f7a7f3970d6d0432ad04962fe26dd1d09a3f8520"
+      "path": "assets/charts-D1xU156Q.js",
+      "bytes": 37171,
+      "sha256": "e74c5eccc132740f53d500dbc8794a153ba0975e1a6c5fe14fc6eb1f814f26b0"
     },
     {
-      "path": "assets/charts-D6juVHef.js",
-      "bytes": 37132,
-      "sha256": "1630d6e3a515908daf4e26105bdc6a9d8590aec6c274bde43bcde01d7db6eef3"
+      "path": "assets/cloud-Bqwh0Nun.css",
+      "bytes": 125586,
+      "sha256": "92cf479635e3f0730f4a9bf223288c194bacd6e7d6621d2e06c427e048a3d433"
     },
     {
-      "path": "assets/cloud-BPhqMeFn.css",
-      "bytes": 124086,
-      "sha256": "3b69a318dd1e84a7911fb717b93b9a245c5554281d012f2009bb5a15bccf414d"
+      "path": "assets/cloud-D_b9vtnZ.js",
+      "bytes": 894102,
+      "sha256": "c43b6550933fa2378a3a838ac7d18e4377b8862347b6c27c326826e51ab82d01"
     },
     {
-      "path": "assets/cloud-C6nOrYSP.js",
-      "bytes": 868547,
-      "sha256": "f1cfe7d042b6767382113093257c01d4f0fdc91acbe07231b1cdce19c92c2b71"
+      "path": "assets/common-PhkFX-ae.js",
+      "bytes": 126711,
+      "sha256": "0a34c02bc5717b31a0f883c7af2d90d1f0c99ea541dde14c902e32b474f90583"
     },
     {
-      "path": "assets/common-CAersfRh.js",
-      "bytes": 126677,
-      "sha256": "4e49690ca952b5008d78f726c827134eb7a8fc9579aec479de7b007022898b51"
+      "path": "assets/confirm-CwbfsJlk.js",
+      "bytes": 1679,
+      "sha256": "867647271fb9a86c09b0796f71a39c232a83ba758439c233441806be1231c282"
     },
     {
-      "path": "assets/components-ojRx7QT4.js",
-      "bytes": 143647,
-      "sha256": "4ed883c41efe30c2acbfda03b9d03f09f55847483af0dda9c9cd6b0cbfc65ef9"
-    },
-    {
-      "path": "assets/energy-Dig3ltG5.js",
+      "path": "assets/energy-BQUD60UL.js",
       "bytes": 3487,
-      "sha256": "6cd2ccb1bc0419d98e43fdbf06d1460db3b13cf2f3a69d1af91a4935b49cdd03"
+      "sha256": "98fe8cc9d26d558dcb4557023f801bc8ff29ed61f1792ae57114e3aa623aad78"
     },
     {
       "path": "assets/jsQR-DMfxOdIb.js",
       "bytes": 129986,
       "sha256": "d669286fbf7c726fdcad5de1b4ac34fd6b6be6411f8295925ad9f53895d77869"
+    },
+    {
+      "path": "assets/jsx-runtime-C3cWAN_r.js",
+      "bytes": 8243,
+      "sha256": "036e646de62e26433472179f17fa666f8dc6728243a5551af4c11c86b53b2774"
+    },
+    {
+      "path": "assets/model-B2fzN8eA.js",
+      "bytes": 141162,
+      "sha256": "9db998d7cf89e4a98848f7ad99cea4e456a6643b806390e50e6de173569280d5"
     },
     {
       "path": "assets/pdf-DZw16B5N.js",
@@ -128,9 +160,14 @@
       "sha256": "9536359f1b8367850d485731ca1d5e45c159a7b7a0912325e539937aa21ceb18"
     },
     {
-      "path": "assets/planning-CGBpyH4N.js",
-      "bytes": 66949,
-      "sha256": "cd5ebcbdbc4d4d2da2fa928e33447007dff4b7ff3a8a3e2333398b9e41eca550"
+      "path": "assets/planning-BQVXYlR1.js",
+      "bytes": 66944,
+      "sha256": "a011dca197e78366f2fc971f0564762acfb5ddaf123161e0c8607895f221994c"
+    },
+    {
+      "path": "assets/retirement-n97RNjom.js",
+      "bytes": 6502,
+      "sha256": "3b436379307d3179916ae9ae7e24ffbba8ed4c428de796b044f8e95f4a2d7d12"
     },
     {
       "path": "assets/rolldown-runtime-XKyaHtl9.js",
@@ -138,14 +175,14 @@
       "sha256": "548d1dbf321e7d2ae804fcc158b588706a7c52f8ca175de1490c6ccb4dbe55b7"
     },
     {
-      "path": "assets/spending-mZNcukN6.js",
+      "path": "assets/spending-5sEY06wF.js",
       "bytes": 10219,
-      "sha256": "bd39ab66777aca50a73ebdfbd6d12aa92fdfc489485acf55ada29d6a61aea0a2"
+      "sha256": "c44d35b54a477edc7971696d17a11b2c95039a45e03a30de7daba556804cb238"
     },
     {
-      "path": "assets/wallet-DC8mYaNT.js",
+      "path": "assets/wallet-RF2DenRN.js",
       "bytes": 6340,
-      "sha256": "8a0cdb9e5dd4b0a062838e2e5e365e30c4402b952fb22869512824e3e95ad93f"
+      "sha256": "17e4bc247819879621942428f7303a70db3a8228b1dc9c92419e38b1b5f449b3"
     },
     {
       "path": "icons/apple-touch-icon.png",
@@ -174,8 +211,8 @@
     },
     {
       "path": "sw.js",
-      "bytes": 2387,
-      "sha256": "11ec28a8396327a64225f5a9ec6b5f03c0a854c5717d9fd8e89186fa7b7dd9af"
+      "bytes": 2654,
+      "sha256": "11051dd0b67dbe28516cc446b3b37b7a0ec99766c42673dce12d94b133739c3e"
     }
   ]
 }
