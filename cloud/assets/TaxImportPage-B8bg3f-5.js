@@ -1,0 +1,1 @@
+import{i as e}from"./art-t6o5BooX.js";import{YearBar as t,t as n}from"./TaxFace-C-dvs2da.js";var r=e();function i({year:e,setYear:i}){return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(t,{title:`导入报税资料`,year:e,setYear:i}),(0,r.jsx)(n,{year:e})]})}export{i as default};
