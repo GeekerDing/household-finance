@@ -4,13 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="referrer" content="no-referrer" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://api.anthropic.com https://data-api.ecb.europa.eu https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com; frame-src https://accounts.google.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' https://accounts.google.com/gsi/style; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://*.ts.net https://api.anthropic.com https://data-api.ecb.europa.eu https://www.googleapis.com https://oauth2.googleapis.com https://accounts.google.com; frame-src https://accounts.google.com; object-src 'none'; base-uri 'self'; form-action 'self'" />
     <title>须弥集 · 隐私说明</title>
   </head>
   <body>
     <main>
       <h1>隐私说明</h1>
-      <p>更新：2026-10-31。须弥集是个人家庭财务管理工具。</p>
+      <p>须弥集是个人家庭财务管理工具。</p>
       <h2>设备和云盘</h2>
       <p>
         账本及原件在设备上解密，Google Drive
@@ -22,9 +22,14 @@
       </p>
       <h2>可选的 AI 助手</h2>
       <p>
-        启用助手后，问题及所调用工具的结果会发送给
-        Anthropic。结果可能含收支明细、商户或备注；请根据你的隐私需要决定是否启用。助手密钥仅按你的选择保存在本设备，不写入云盘金库。使用外部
-        MCP 客户端时，还需检查该客户端的数据处理设置。
+        你主动提问并允许外发后，本轮问题及按权限选取的资料会发送给所配置的 Anthropic 或 OpenAI。
+        资料可能包括收支、商户、备注及适用的已确认记忆。Mac 模式的标准模型密钥仅留在节点内存；旧直连模式可选择设备加密保存，不写入云盘。
+        供应商的数据处理以其设置和条款为准；外部 MCP 客户端还需单独核对自己的模型及数据处理设置。
+      </p>
+      <p>
+        私人长期记忆单独加密保存在 Mac，不自动复制到手机或云盘。配对设备由节点按授权组装上下文，网页展示本轮答案和依据。
+        配对授权留在节点内存，重启后需重新配对；可选 Face ID 仅加密保存本设备凭据，模型密钥不会传给手机。
+        你可在 Mac 撤销设备授权，财务修改仍需原审批。可信节点的后台读取按你已明确启用的系统保护策略运行。
       </p>
       <h2>其他网络连接</h2>
       <p>
@@ -34,9 +39,10 @@
       <h2>导出、撤销和删除</h2>
       <p>
         可在工具中导出完整加密备份，在同步管理中退出本机连接，也可在 Google
-        账号中撤销授权。退出连接不会删除账本。云盘文件、其他设备及已有备份须分别管理；本轮网址迁移不自动删除旧副本。
+        账号中撤销授权。退出连接不会删除账本。云盘文件、其他设备及已有备份须分别管理。
       </p>
       <p><a href="./about.html">应用介绍</a> · <a href="./">返回须弥集</a></p>
     </main>
+    <footer><p>更新：2026-11-14</p></footer>
   </body>
 </html>
